@@ -1,0 +1,21 @@
+Test suite spec: RUNNING...
+
+Sample
+  sample
+    simple example works FAILED [1]
+
+Failures:
+
+  test/SampleSpec.hs:9:7: 
+  1) Sample.sample simple example works
+       expected: 2
+        but got: 1
+
+  To rerun use: --match "/Sample/sample/simple example works/"
+
+Randomized with seed 411584170
+
+Finished in 0.0001 seconds
+1 example, 1 failure
+Test suite spec: FAIL
+Test suite logged to: /home/rp218/projects/software-engineering/apostole/dist-newstyle/build/x86_64-linux/ghc-8.8.4/apostole-0.1.0.0/t/spec/test/apostole-0.1.0.0-spec.log
