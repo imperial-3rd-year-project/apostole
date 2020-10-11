@@ -6,4 +6,4 @@ spec :: Spec
 spec = do
   describe "sample" $ do 
     it "simple example works" $
-      head [1..3] `shouldBe` 2
+      head [1..3] `shouldBe` 1
