@@ -5,10 +5,9 @@
   - ```cabal build```
 
 ### Testing the project: 
-
+ 
  - ```cabal test```
- - ```runhaskell -itest -isrc test/Spec.hs``` -- for nicer output
-
+ - ```cabal test --test-show-details=streaming --test-option=--color``` -- for nicer output
 
 The project is tested using hspec as a tool for running the tests. Tests can be specified using the hspec syntax.
 
